@@ -3,6 +3,7 @@ window.config = {
   routerBasename: '/',
   extensions: [],
   showStudyList: true,
+  defaultDataSourceName: 'dicomweb',
   filterQueryParam: false,
   disableServersCache: false,
   studyPrefetcher: {
@@ -18,9 +19,9 @@ window.config = {
     dicomWeb: [
       {
         name: 'DCM4CHEE',
-        wadoUriRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/wado',
-        qidoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
-        wadoRoot: 'https://server.dcmjs.org/dcm4chee-arc/aets/DCM4CHEE/rs',
+        wadoUriRoot: 'https://18.212.46.119:8443/dcm4chee-arc/aets/DCM4CHEE/wado',
+        qidoRoot: 'https://18.212.46.119:8443/dcm4chee-arc/aets/DCM4CHEE/rs',
+        wadoRoot: 'https://18.212.46.119:8443/dcm4chee-arc/aets/DCM4CHEE/rs',
         qidoSupportsIncludeField: true,
         imageRendering: 'wadors',
         thumbnailRendering: 'wadors',
